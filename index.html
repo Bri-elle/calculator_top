@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Simple Calculator</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main class="container">
+			<section id="calculator-box">
+				<section id="display">
+					<div id="resultDisplay">
+						<p id="expressionResult"></p>
+						<p id="expression"></p>
+					</div>
+				</section>
+
+				<section id="calculator-pad">
+					<div class="pad1">
+						<div class="row row1">
+							<button id="clr">clr</button>
+							<button id="/">/</button>
+							<button id="*">*</button>
+						</div>
+						<div class="row row2">
+							<button id="7">7</button>
+							<button id="8">8</button>
+							<button id="9">9</button>
+						</div>
+						<div class="row row3">
+							<button id="4">4</button>
+							<button id="5">5</button>
+							<button id="6">6</button>
+						</div>
+						<div class="row row4">
+							<button id="1">1</button>
+							<button id="2">2</button>
+							<button id="3">3</button>
+						</div>
+						<div class="row row5">
+							<button id="percentage">%</button>
+							<button id="0">0</button>
+							<button id=".">.</button>
+						</div>
+					</div>
+
+					<div class="pad2">
+						<button id="backSpaced">
+							<img
+								class="backSpace"
+								src="backSpace.svg"
+								alt="backspace icon"
+							/>
+						</button>
+						<button id="-">-</button>
+						<button id="+">+</button>
+						<button id="=" class="double">=</button>
+					</div>
+				</section>
+			</section>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
