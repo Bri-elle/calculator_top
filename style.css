@@ -45,7 +45,6 @@ img, picture, video, canvas, svg {
 html {
   height: 100%;
 font-size: 62.5%;
-
 }
 
 body {
@@ -62,6 +61,7 @@ LAYOUT
 .container{
   width: 100%;
   height: 100vh;
+  
   align-content: center;
 }
 #calculator-box{
@@ -71,8 +71,6 @@ LAYOUT
   border-radius: 30px 30px 10px 10px;
   margin:0 auto;
   padding: 1rem;
-
- 
 }
 
 #display{
@@ -94,8 +92,6 @@ padding-bottom: 10px;
 padding-right: 20px;
 flex-direction: column;
 justify-content: flex-end;
-  
-
 }
 
 #calculator-pad{
@@ -122,10 +118,8 @@ button{
 
 .pad1{
   width: 75%;
-  /* border: 1px solid salmon; */
   display: flex;
   flex-direction: column;
-  /* row-gap: 20px; */
   justify-content: space-around; 
   
 }
@@ -153,15 +147,30 @@ button{
 TYPOGRAPHY
 ===========
 */
+body{
+  font-family: "Solway", serif;
+}
 
 button{
-  font-size: 2rem;
+  font-family: "Solway", serif;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
-#display{
-  font-size: 2rem;
+#calculator-pad{
 }
-
+  
+#display {
+  
+}
+#expressionResult{
+  font-size: 3.5rem;
+}
+#expression{
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-style: normal;
+}
 
 /*
 ===========
@@ -180,7 +189,7 @@ button{
   background-color: #dfdfdf;
 }
 .double{
-  background-color: rgb(210, 63, 10);
+  background-color: rgba(210, 77, 10, 0.713);
 }
 
  /*
