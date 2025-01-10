@@ -2,7 +2,7 @@
 
 ## For: The Odin Project
 
--  This documentation follows the *ReadMe-Template* from Front End Mentorship
+-  This documentation follows the _ReadMe-Template_ from Front End Mentorship
 
 This is a solution to the [Product list with cart challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -74,19 +74,18 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+
 ```
 
 ```css
-.proud-of-this-css {
-	color: papayawhip;
-}
+
 ```
 
 ```js
-const proudOfThisFunc = () => {
-	console.log("🎉");
-};
+// limit decimal points that a user enters
+if (currentValue === "." && lastElement.includes(".")) {
+	return;
+}
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
@@ -101,6 +100,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
+ChatGPT
+
+-  I found that using ChatGPT as a tutor, rather than just copying the code, helps me learn more effectively.
 -  [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 -  [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
